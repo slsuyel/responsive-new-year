@@ -440,8 +440,10 @@ h2.footer-title-subscribe {
     }
     .subcribe-section {
         margin-top: -48px;
+        margin-left: -48px;
     }
     .future-section {
         text-align: initial;
+        margin-left: -50px;
     }
 }
