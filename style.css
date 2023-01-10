@@ -6,7 +6,7 @@
 
 .top-right {
     position: absolute;
-    top: 220px;
+    top: 120px;
     text-align: right;
     margin-right: 10%;
     left: 58%;
@@ -23,8 +23,8 @@
     color: white;
     margin-left: 120px;
     line-height: 23px;
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin-top: 8px;
+    margin-bottom: 22px;
 }
 .banner-btn {
     color: #079ae1;
@@ -66,7 +66,177 @@ gap: 118px;
 img.about-bg {
     margin-left: 50px;
 }
+.my-plan {
+    margin-top: 60px;
+    background: #c9bfbf40;
+    padding: 74px 0px;
+    margin-bottom: 50px;
+}
+.my-plan-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plan-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 21px;
+    text-align: center;
+}
 
+.call-now-bg {
+    background-image: linear-gradient(to right, rgb(255 214 16 / 19%), rgb(85 86 86 / 47%)), url(assets/watch.png);
+    height: 287px;
+    margin: auto;
+    border-radius: 10px;
+}
+.call-title {
+    margin-left: 81px;
+    margin-bottom: 20px;
+    padding-top: 63px;
+    color: white;
+}
+.call-now-btn {
+    margin-left: 78px;
+    height: 55px;
+    width: 127px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #cf6900;
+    margin-top: 5px;
+}
+/* ------------------------------ */
+
+@media screen  and (max-width:1200px){
+    .about {
+        margin-top: 145px;
+    margin-right: 0px;}
+    img.about-bg {
+        max-width: 100%;
+    }
+
+}
+/* ----------/* ----------------- */
+@media screen  and (max-width:992px) {
+   
+    .top-right {
+        position: absolute;
+        top: -50px;
+        left: 51%;
+        right: 0px;
+    }
+    .top-right h1 {
+        font-size: 32px;
+        color: white;
+        line-height: 48px;
+        margin-top: 62px;
+        text-align: right;
+    }
+    .banner-descripton {
+        font-weight: 400;
+        font-size: 15px;
+        color: #ffff;
+        margin-left: 0%;
+        line-height: 23px;
+        margin-top: 21px;
+        margin-bottom: 17px;
+    }
+    .banner-btn {
+        color: #079ae1;
+        width: 115px;
+        height: 51px;
+        font-size: 17px;
+        border-radius: 7px;
+        border: none;
+        font-weight: 500;
+        margin-top: 17px;
+    }
+    .about-us{
+
+
+    }
+        
+     img.about-bg {
+            width: 100%;
+         
+        }
+        h1.about-title {
+            text-align: center;
+        }
+        .about {
+            margin: auto;
+            padding: 0px 24px;
+        }
+        br.br {
+            display: none;
+        }
+        
+}
+/* ------------- */
+
+@media screen and (max-width:768px){
+    .top-right h1 {
+        font-size: 20px;
+        color: white;
+        line-height: 28px;
+        margin-top: 62px;
+        text-align: right;
+    }
+    .banner-descripton {
+        font-weight: 400;
+        font-size: 12px;
+        color: #ffff;
+        margin-left: 0%;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+    .banner-btn {
+        color: #079ae1;
+        width: 103px;
+        height: 32px;
+        font-size: 15px;
+        border-radius: 4px;
+        border: none;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+
+    .plan-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 21px;
+        text-align: center;
+    }
+    .call-now-bg {
+        background-image: linear-gradient(to right, rgb(255 214 16 / 19%), rgb(85 86 86 / 47%)), url(assets/watch.png);
+        height: 234px;
+        margin: auto;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .call-now-btn {
+        margin-left: 78px;
+        height: 37px;
+        width: 92px;
+        border-radius: 15px;
+        border: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: #cf6900;
+        margin-top: -10px;
+    }
+    .call-title {
+        margin-left: 81px;
+        margin-bottom: 22px;
+        padding-top: 52px;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+/* ----------------- */
 @media screen and (max-width:576px) {
     .top-right {
         position: absolute;
@@ -118,64 +288,9 @@ img.about-bg {
         br.br {
             display: none;
         }
-        
-
 }
-
-/* ----------------- */
-@media screen and (min-width:577px) and (max-width:992px) {
-   
-    .top-right {
-        position: absolute;
-        top: 40px;
-        left: 51%;
-        right: 0px;
+@media screen and (max-width: 465px){
+    .banner-descripton{
+        display: none;
     }
-    .top-right h1 {
-        font-size: 32px;
-        color: white;
-        line-height: 48px;
-        margin-top: 62px;
-        text-align: right;
-    }
-    .banner-descripton {
-        font-weight: 400;
-        font-size: 15px;
-        color: #ffff;
-        margin-left: 0%;
-        line-height: 23px;
-        margin-top: 21px;
-        margin-bottom: 17px;
-    }
-    .banner-btn {
-        color: #079ae1;
-        width: 115px;
-        height: 51px;
-        font-size: 17px;
-        border-radius: 7px;
-        border: none;
-        font-weight: 500;
-        margin-top: 17px;
-    }
-    .about-us{
-
-
-    }
-        
-     img.about-bg {
-            width: 100%;
-         
-        }
-        h1.about-title {
-            text-align: center;
-        }
-        .about {
-            margin: auto;
-            padding: 0px 24px;
-        }
-        br.br {
-            display: none;
-        }
-        
-    
 }
