@@ -263,6 +263,23 @@ h2.footer-title-subscribe {
             display: none;
         }
         
+        .service-box {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 18px;
+            gap:10px;
+        }
+        p.service-description {
+            font-size: 14px;
+        }
+        h3.service-name {
+            margin-top: 10px;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
 }
 /* ------------- */
 
